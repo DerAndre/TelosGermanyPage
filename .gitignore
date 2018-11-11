@@ -1,0 +1,5 @@
+*.lock
+package-lock.json
+.travis.yml
+node_modules/
+.idea/
