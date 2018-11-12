@@ -32,7 +32,7 @@ body {
 }
 
 .stick-to-top {
-  padding-top: 89px !important;
+  padding-top: 88px !important;
 }
 
 .code-of-conduct-text {
@@ -52,4 +52,8 @@ body {
   padding-right: 120px;
   border-top-left-radius: calc(0.25rem - 1px);
   border-top-right-radius: calc(0.25rem - 1px);
+}
+
+.faq-link {
+  color: #9c999b;
 }
