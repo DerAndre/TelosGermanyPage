@@ -21,7 +21,41 @@
   <!-- Todo: Replace stick-to-top class with JS calculation-->
   <body class="stick-to-top">
     <!-- Navbar -->
-    <div id="nav-placeholder"></div>
+    <div id="nav-placeholder">
+      
+
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/telos_germany_small.png" height="30">  TelosGermany <br>BLOCK PRODUCER CANDIDATE</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="code_of_conduct.html">Code of Conduct</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownPortfolio" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Tools and Papers
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
+                        <a class="dropdown-item" href="https://telosfoundation.io/downloads" target="_blank">Downloads by Telos</a>
+                        <a class="dropdown-item" href="http://telosgermany.io/" target="_blank">Former page</a>
+                        <a class="dropdown-item" href="https://github.com/eostoolkit/eostoolkit" target="_blank">EosToolkit</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="faq.html">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+    </div>
 
     <header>
       <!-- TODO: Ask if slides wanted and set final logo-->
@@ -33,7 +67,7 @@
         </ol>
         <div class="carousel-inner" role="listbox" style="max-height: 500px">
           <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" style="background-color: #c82333; max-height: inherit">
+          <div class="carousel-item active" style="background-image: url('img/telos_germany_small.png'); max-height: inherit">
             <div class="carousel-caption d-none d-md-block">
               <h3>Welcome to TelosGermany</h3>
               <p>Block Producer Candidate from Germany</p>
@@ -94,68 +128,74 @@
               </div>
             </div>
           </div>
-          <!--
-          <div class="col-lg-4 mb-4">
-            <div class="card h-100">
-              <h4 class="card-header">Card Title</h4>
-              <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-              </div>
-              <div class="card-footer">
-                <a href="#" class="btn btn-primary">Learn More</a>
-              </div>
-            </div>
-          </div>
-          -->
         </div>
       </section>
       <!-- /.row -->
+      <hr>
+
+      <section>
+        <h1 class="my-4">The Team</h1>
+
+        <!-- At a glace Section -->
+        <div class="row">
+          <div class="col-lg-4 mb-6">
+            <div class="card h-100">
+              <span><img class="card-img-top-centralized" src="img/supergeil.jpg" alt=""></span>
+              <div class="card-body">
+                <p class="card-text"><b>Ralf:</b> Support...</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 mb-6"> <!--offset-4-->
+            <div class="card h-100">
+              <span><img class="card-img-top-centralized" src="img/supergeil.jpg" alt=""></span>
+              <div class="card-body">
+                <p class="card-text"><b>Stefan:</b> Infrastructure...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.row -->
+      <hr>
 
       <!-- WHY? Section -->
       <section>
-        <h2 style="margin-top: 20px">Why TelosGermany</h2>
+        <h1 class="my-4">Why TelosGermany</h1>
 
         <div class="row">
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="img/brain.png" alt=""></a>
+              <span><img class="card-img-top-centralized" src="img/brain.png" alt=""></span>
               <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Knowledge</a>
-                </h4>
+                <h4 class="card-title">Knowledge</h4>                          
                 <p class="card-text">With years of experience in the cryptocurrency business we're exited to bring in our ideas and expertise to the Telos project to make it a full success.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="img/blockchain.png" alt=""></a>
+              <span><img class="card-img-top-centralized" src="img/blockchain.png" alt=""></span>
               <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Testnet</a>
-                </h4>
+                <h4 class="card-title">Testnet</h4>               
                 <p class="card-text">We have been successfully set our network up and running on the Telos Testnet and actively started producing blocks.</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="img/development.png" alt=""></a>
+              <span><img class="card-img-top-centralized" src="img/development.png" alt=""></span>
               <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Development</a>
-                </h4>
+                <h4 class="card-title">Development</h4>                
                 <p class="card-text">Not enough we're bringing in infrastructure and knowledge, we'll also contribute to Telos with software. We're currently working on a wallet capable of dealing with EOS and Telos. (Eostoolkit?)</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
-              <a href="#"><img class="card-img-top" src="img/hand.png" alt=""></a>
+              <span><img class="card-img-top-centralized" src="img/hand.png" alt=""></span>
               <div class="card-body">
-                <h4 class="card-title">
-                  <a href="#">Independence</a>
-                </h4>
+                <h4 class="card-title">Independence</h4>
                 <p class="card-text">GenerEOS is bootstrapped and funded directly by the founding team’s personal capital. GenerEOS is not influenced by any venture funding, therefore we can remain agile and free to move in the direction required by the community. GenerEOS will disclose any change in ownership structure to the community to remain completely transparent.</p>
               </div>
             </div>
@@ -163,9 +203,10 @@
         </div>
       </section>
       <!-- /.row -->
+      <hr>
 
       <section>
-        <h2>More about Telos</h2>
+        <h1 class="my-4">More about Telos</h1>
         <div class="row">
           <div class="col-lg-4">
             <a href="https://telosfoundation.io/"><img src="img/telos_logo2.png"></a>
@@ -178,42 +219,8 @@
           </div>
         </div>
       </section>
-
-      <!-- Features Section
-      <div class="row">
-        <div class="col-lg-6">
-          <h2>Modern Business Features</h2>
-          <p>The Modern Business template by Start Bootstrap includes:</p>
-          <ul>
-            <li>
-              <strong>Bootstrap v4</strong>
-            </li>
-            <li>jQuery</li>
-            <li>Font Awesome</li>
-            <li>Working contact form with validation</li>
-            <li>Unstyled page elements for easy customization</li>
-          </ul>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
-        </div>
-        <div class="col-lg-6">
-          <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
-        </div>
-      </div>
-      -->
       <!-- /.row -->
-
       <hr>
-
-      <!-- Call to Action Section
-      <div class="row mb-4">
-        <div class="col-md-8">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
-        </div>
-        <div class="col-md-4">
-          <a class="btn btn-lg btn-secondary btn-block" href="#">Call to Action</a>
-        </div>
-      </div>
-      -->
 
     </div>
     <!-- /.container -->
@@ -223,7 +230,6 @@
       <div class="container">
         <p class="m-0 text-center text-white">Copyright &copy; TelosGermany 2018</p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->

@@ -41,3 +41,12 @@ body {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+
+.card-img-top-centralized {
+  width: 100%;
+  padding-top:30px;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-top-left-radius: calc(0.25rem - 1px);
+  border-top-right-radius: calc(0.25rem - 1px);
+}
