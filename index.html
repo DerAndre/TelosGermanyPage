@@ -100,7 +100,7 @@
             <div class="card h-100">
               <span><img class="card-img-top-centralized" src="assets/supergeil.jpg" alt=""></span>
               <div class="card-body">
-                <p class="card-text"><b>Stefan:</b> Infrastructure...</p>
+                <p class="card-text"><b>Stefan - Infrastructure Expert:</b> Stefan is specialized in infrastructure administration and virtualization. With more than 15 years of experience Stefan has comprehensive knowledge in different segments of Information Technologies. Stefan believes in the success of Blockchain Technology, Smart Contracts and Dapps.</p>
               </div>
             </div>
           </div>
@@ -145,11 +145,7 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-4 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; TelosGermany 2018</p>
-      </div>
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -157,14 +153,13 @@
     <script src="vendor/particles/particles.min.js"></script>
 
     <script>
-        particlesJS.load('particles-js', 'assets/particles.json', function() {
-            console.log('callback - particles.js config loaded');
-        });
+      particlesJS.load('particles-js', 'assets/particles.json');
     </script>
 
     <script>
       $(function () {
-          $('#nav-placeholder').load('nav.html');
+        $('#nav-placeholder').load('nav.html');
+        $('#footer-placeholder').load('footer.html');
       });
     </script>
 

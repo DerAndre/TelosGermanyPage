@@ -28,13 +28,14 @@
     <div class="container" style="min-height: 100vh">
 
       <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">FAQ</h1>
+      <h1 class="mt-4 mb-3 my-5">FAQ</h1>
+
       <p>Questions and answers taken from <a href="https://telosfoundation.io/faq">The Telos Foundation</a> for further information see <a href="https://medium.com/@teloslogical">Medium</a> or for more technically information see <a href="https://github.com/Telos-Foundation">Telos on Git</a></p>
       <div class="mb-4" id="accordionOriginTelos" role="tablist" aria-multiselectable="true">
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingOne">
             <h5 class="mb-0">
-              <a class="faq-link" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Telos?</a>
+              <a class="faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is Telos?</a>
             </h5>
           </div>
 
@@ -47,7 +48,7 @@
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingTwo">
             <h5 class="mb-0">
-              <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What is the difference between EOS and Telos?</a>
+              <a class="collapsed faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">What is the difference between EOS and Telos?</a>
             </h5>
           </div>
           <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
@@ -59,7 +60,7 @@
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingThree">
             <h5 class="mb-0">
-              <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What is TLOS?</a>
+              <a class="collapsed faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">What is TLOS?</a>
             </h5>
           </div>
           <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
@@ -71,7 +72,7 @@
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingFour">
             <h5 class="mb-0">
-              <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">If I bought EOS tokens, will I get TLOS?</a>
+              <a class="collapsed faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">If I bought EOS tokens, will I get TLOS?</a>
             </h5>
           </div>
           <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
@@ -83,7 +84,7 @@
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingFive">
             <h5 class="mb-0">
-              <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What exactly is the Telos genesis token distribution algorithm?</a>
+              <a class="collapsed faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">What exactly is the Telos genesis token distribution algorithm?</a>
             </h5>
           </div>
           <div id="collapseFive" class="collapse" role="tabpanel" aria-labelledby="headingFive">
@@ -95,7 +96,7 @@
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingSix">
             <h5 class="mb-0">
-              <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Can developers make their code proprietary?
+              <a class="collapsed faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginTelos" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">Can developers make their code proprietary?
               </a>
             </h5>
           </div>
@@ -112,7 +113,7 @@
         <div class="card faq-card">
           <div class="card-header" role="tab" id="headingSeven">
             <h5 class="mb-0">
-              <a class="collapsed faq-link" data-toggle="collapse" data-parent="#accordionOriginOwn" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Do developers have to rewrite their Dapps for Telos?
+              <a class="collapsed faq-link" style="text-decoration: none" data-toggle="collapse" data-parent="#accordionOriginOwn" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">Do developers have to rewrite their Dapps for Telos?
               </a>
             </h5>
           </div>
@@ -127,20 +128,16 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-4 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; TelosGermany 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
-        $(function () {
-            $('#nav-placeholder').load('nav.html');
-        });
+      $(function () {
+        $('#nav-placeholder').load('nav.html');
+        $('#footer-placeholder').load('footer.html');
+      });
     </script>
   </body>
 

@@ -48,8 +48,7 @@
 
       <h2 class="mt-4">Honesty, Integrity, and Ethics</h2>
       <p class="code-of-conduct-text">
-        <!-- Todo: Check if Telos Constitution exists-->
-        We declare we will always act with honesty and integrity while applying the highest ethical standards in all aspects of our conduct. This includes abiding by the EOS Constitution and Block Producer Agreement.
+        We declare we will always act with honesty and integrity while applying the highest ethical standards in all aspects of our conduct. This includes abiding by the Telos Constitution and Block Producer Agreement.
       </p>
 
       <h2 class="mt-4">Network Performance</h2>
@@ -86,20 +85,16 @@
     <!-- /.container -->
 
     <!-- Footer -->
-    <footer class="py-4 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; TelosGermany 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+    <div id="footer-placeholder"></div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
-        $(function () {
-            $('#nav-placeholder').load('nav.html');
-        });
+      $(function () {
+        $('#nav-placeholder').load('nav.html');
+        $('#footer-placeholder').load('footer.html');
+      });
     </script>
 
   </body>
