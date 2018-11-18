@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+Disallow: /cgi-bin/
+Disallow: /vendor/
+Disallow: /js/
+Disallow: /css/
+Disallow: /mail/
