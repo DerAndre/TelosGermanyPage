@@ -1,0 +1,47 @@
+{
+  "producer_account_name": "telosgermany",
+  "producer_public_key": "EOS7XAWAKFmsvc85oMD42eo5fAQuaCPaViWXe2VQ1WATQoMCVEnyH",
+  "org": {
+    "candidate_name": "TelosGermany",
+    "website": "https://telosgermany.io",
+    "code_of_conduct": "https://telosgermany.io/code_of_conduct",
+    "email": "contact@telosgermany.io",
+    "branding": {
+      "logo_256": "https://telosgermany.io/assets/telosgermany-logo-256.png",
+      "logo_1024": "https://telosgermany.io/assets/telosgermany-logo-1024.png",
+      "logo_svg": "https://telosgermany.io/assets/telosgermany-logo.svg"
+    },
+    "location": {
+      "name": "Frankfurt am Main",
+      "country": "DE",
+      "latitude": 51.1657,
+      "longitude": 10.4515
+    },
+    "social": {
+      "steemit": "",
+      "twitter": "TelosGermany",
+      "youtube": "",
+      "facebook": "",
+      "github": "TelosGermany",
+      "reddit": "",
+      "keybase": "",
+      "telegram": "TelosGermany",
+      "wechat": ""
+    }
+  },
+  "nodes": [
+    {
+      "location": {
+        "name": "Frankfurt",
+        "country": "DE",
+        "latitude": 51.1657,
+        "longitude": 10.4515
+      },
+      "node_type": "full",
+      "is_producer": true,
+      "p2p_endpoint": "apinode.telosgermany.io",
+      "api_endpoint": "http://apinode.telosgermany.io",
+      "ssl_endpoint": "https://apinode.telosgermany.io"
+    }
+  ]
+}
