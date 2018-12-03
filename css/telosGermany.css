@@ -38,6 +38,7 @@ body {
 .code-of-conduct-text {
   color: #827a7a;
   font-size: larger;
+  text-align: justify !important;
 }
 
 .faq-card {
