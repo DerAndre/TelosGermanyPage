@@ -30,13 +30,10 @@
 			<section id="downloads" class="mt-5">
 				<h1>Downloads</h1>
 				<span>
-					<p class="code-of-conduct-text">Please feel free to verify downloads with our <a href="/downloads/telosgermany.pub" download>public key</a></p>
-					<p>Using openssl: <br>
-						openssl base64 -d -in &lt;signature&gt; -out /tmp/sign.sha256 <br>
-						openssl dgst -sha256 -verify &lt;pub-key&gt; -signature /tmp/sign.sha256 &lt;file&gt;
-					</p>
-					<p class="code-of-conduct-text">
-						&lt;signature&gt; is the file with the .sign ending, it contains the signature for the checksum file. &lt;pub-key&gt; is our public key, which you can download with the above link and &lt;file&gt; is the file ending with .sha512 containing the sha512 checksum of your download.
+					<p class="code-of-conduct-text">Please feel free to verify downloads with our <a href="/downloads/telosGermanyPub.key" download>GPG Key</a></p>
+					<p>To verify you need gpg installed and enter the following commands: <br>
+						gpg --import telosGermanyPub.key (if not already imported)<br>
+						gpg --verify SHA512SUMS.sig SHA512SUMS
 					</p>
 
 				</span>
