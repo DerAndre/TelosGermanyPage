@@ -67,3 +67,19 @@ body {
 .nav-item {
   margin: 5px !important;
 }
+
+.bouton-image:before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: text-bottom;
+    background-color: transparent;
+    background-position : center center;
+    background-repeat:no-repeat;
+}
+
+.monBouton:before{
+     background-image : url("/assets/TelosPortal20px.png");
+}
