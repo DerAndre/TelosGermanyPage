@@ -4,7 +4,7 @@
   "org": {
     "candidate_name": "TelosGermany",
     "website": "https://telosgermany.io",
-    "code_of_conduct": "https://telosgermany.io/code_of_conduct",
+    "code_of_conduct": "https://telosgermany.io/code_of_conduct.html",
     "ownership_disclosure": "https://telosgermany.io/index.html#ownership-disclosure",
     "email": "contact@telosgermany.io",
     "phone": "TF Registry",
@@ -22,7 +22,7 @@
     "social": {
       "steemit": "",
       "twitter": "TelosGermany",
-      "youtube": "",
+      "youtube": "TelosGermany Block Producer Candidate",
       "facebook": "",
       "github": "TelosGermany",
       "reddit": "",
