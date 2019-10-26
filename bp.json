@@ -39,9 +39,16 @@
         "latitude": 51.1657,
         "longitude": 10.4515
       },
+	  "node_type":"producer"
+	  },
+	  {
+	  "location": {
+        "name": "Frankfurt",
+        "country": "DE",
+        "latitude": 51.1657,
+        "longitude": 10.4515
+      },
       "node_type": "full",
-      "is_producer": false,
-      "p2p_endpoint": "apinode.telosgermany.io",
       "api_endpoint": "http://apinode.telosgermany.io",
       "ssl_endpoint": "https://apinode.telosgermany.io"
     }
