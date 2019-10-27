@@ -32,6 +32,16 @@
     }
   },
   "nodes": [
+  {
+      "location": {
+        "name": "Frankfurt",
+        "country": "DE",
+        "latitude": 51.1657,
+        "longitude": 10.4515
+      },
+	  "node_type":"seed",
+	  "p2p_endpoint": "apinode.telosgermany.io:9876"
+	  },
     {
       "location": {
         "name": "Frankfurt",
